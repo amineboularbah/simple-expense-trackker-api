@@ -1,4 +1,4 @@
-package com.example.expensetracker.repositories;
+package com.example.expensetracker.repositories.userRepos;
 
 import com.example.expensetracker.exceptions.EtAuthException;
 import com.example.expensetracker.models.User;
@@ -10,8 +10,6 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.PreparedStatement;
 import java.sql.Statement;

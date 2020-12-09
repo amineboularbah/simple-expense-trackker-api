@@ -1,4 +1,4 @@
-package com.example.expensetracker.service;
+package com.example.expensetracker.service.userService;
 
 import com.example.expensetracker.exceptions.EtAuthException;
 import com.example.expensetracker.models.User;

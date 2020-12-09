@@ -1,4 +1,4 @@
-package com.example.expensetracker.repositories;
+package com.example.expensetracker.repositories.userRepos;
 
 import com.example.expensetracker.exceptions.EtAuthException;
 import com.example.expensetracker.models.User;

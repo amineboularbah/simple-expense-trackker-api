@@ -2,7 +2,7 @@ package com.example.expensetracker.api;
 
 import com.example.expensetracker.Constants;
 import com.example.expensetracker.models.User;
-import com.example.expensetracker.service.UserService;
+import com.example.expensetracker.service.userService.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;

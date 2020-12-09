@@ -1,8 +1,8 @@
-package com.example.expensetracker.service;
+package com.example.expensetracker.service.userService;
 
 import com.example.expensetracker.exceptions.EtAuthException;
 import com.example.expensetracker.models.User;
-import com.example.expensetracker.repositories.UserRepository;
+import com.example.expensetracker.repositories.userRepos.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
